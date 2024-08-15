@@ -2,21 +2,31 @@
     margin: 0;
     padding: 0;
 }
+h2{
+    text-align: center;
+    font-size: 3em;
+    margin: 5%;
+}
 .container{
     display: flex;
+    gap: 10px;
     
     width: 100%;
 
 
 }
 .container> div{ width: 50%;
-    border: 1px solid red;
+    border: 5px solid red;
+    border-radius: 10px;
 }
 img{
     width: 100%;
 }
 @media screen and (max-width: 576px) {
-
+    h2{
+        font-size: 2em;
+        
+    }
     .container{
         flex-direction: column;
         width: 100%;
